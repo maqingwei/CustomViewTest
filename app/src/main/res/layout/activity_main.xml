@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mqw="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.maqingwei.customviewtest.TopView
+        android:id="@+id/mytopview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.maqingwei.customviewtest.TopView
+        android:id="@+id/mytopview1"
+        android:layout_width="match_parent"
+        android:layout_below="@id/mytopview"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <com.example.maqingwei.customviewtest.TopView
+        android:id="@+id/mytopview2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/mytopview1"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <com.example.maqingwei.customviewtest.CountTextView
+        android:id="@+id/conuntview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mytopview2"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        mqw:textColor="#ff00ff"
+        mqw:textCotent="00"
+        mqw:textSize="40sp" />
+
+</RelativeLayout>
