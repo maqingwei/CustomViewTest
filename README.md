@@ -10,4 +10,6 @@ TopView直接继承的是FrameLayout,将顶部栏布局通过inflater加载进�
 1.以文字形式全部显示
 2.隐藏左右两边任意view
 3.加入图片显示
+
+
 ![image](https://github.com/maqingwei/CustomViewTest/raw/master/screenshots/aaa.gif)
