@@ -12,4 +12,4 @@
 * 加入图片显示
 
 
-![image](https://github.com/maqingwei/CustomViewTest/raw/master/screenshots/aaa.gif)
+![image](https://github.com/maqingwei/CustomViewTest/raw/master/screenshots/bb.gif)
