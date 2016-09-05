@@ -39,6 +39,7 @@ public class TopView extends FrameLayout implements View.OnClickListener{
         mCenter.setOnClickListener(this);
         mRight.setOnClickListener(this);
 
+
     }
 
     //设置左边按钮 文字 图片 显示与否
@@ -91,6 +92,7 @@ public class TopView extends FrameLayout implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()){
             case  R.id.tv_left:
+
                 Toast.makeText(mContext,"点击了左按钮",Toast.LENGTH_SHORT).show();
                 break;
 

@@ -28,6 +28,7 @@ public class CountTextView extends TextView {
    private Paint mPaint;
    private Rect mBound;
 
+
     public CountTextView(Context context) {
         super(context);
     }

@@ -35,4 +35,13 @@
         mqw:textCotent="00"
         mqw:textSize="40sp" />
 
+    <com.example.maqingwei.customviewtest.ClickButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我啊"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/conuntview"
+        android:id="@+id/click_btn"/>
+
+
 </RelativeLayout>
